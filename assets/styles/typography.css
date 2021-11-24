@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Raleway&display=swap');
+
+/* 
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+*/
+.header{
+    text-align: center;
+}
+.header img{
+    box-shadow: 3px 3px 3px red;
+    width: 500px;
+    height: 100px;
+}
+h1{
+    background-color: black;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0, 0, 0, .5);
+    background-color:#000000;
+    color: white;
+    color: rgb(255, 255,255);
+    color: rgba(255, 255,255, 0.5);
+    color: #ffffff;
+    opacity: .5;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+    text-shadow: 2px 2px 3px  red;
+    letter-spacing:20px;
+}
+h2{
+    font-family: sans-serif;
+    text-transform: lowercase;
+    text-decoration: overline;
+    text-align: right;
+}
+h3{
+    font-family: monospace;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+}
+.chapter-1{
+    font-size: 10px;
+    background-image: url(../images/gar.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position:center center;
+    background-attachment: fixed;
+}
+.chapter-1 h4 {
+    font-size: 20px;
+}
+.chapter-1 p{
+    font-size: 32px;
+    text-transform: capitalize;
+    text-align: justify;
+    text-indent: 40px;
+}
+.chapter-1 p a{
+    font-size: 16px;
+    text-decoration: none;
+}
+.chapter-2{
+    background: green url(../images/super\ car.jpg)no-repeat  center;
+    background-size:cover;
+}
+
+
+.chapter-2 p{
+    font-weight: 900;
+    word-spacing: 20px;
+}
+.chapter-2 p span{
+    font-weight: 100;
+    font-size: oblique;
+    text-decoration: line-through;
+}
+.chapter-3 p{
+    font-style: oblique;
+}
+.chapter-3 p i{
+    font-style: normal;
+}
+.list ul{
+    /* list-style: upper-roman; */
+    background-color: yellowgreen;
+    /* list-style-position: outside; */
+    list-style: upper-alpha inside;
+}
+.list ul li{
+    background-color: tomato;
+}

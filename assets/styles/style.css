@@ -1,0 +1,43 @@
+/* *{
+    color: red;
+} */
+/* p{
+    color: blue;
+}
+.header{
+    background-color: gray;
+}
+.nav{
+    background-color: greenyellow;
+}
+.joe{
+    color: white;
+}
+#nanako{
+    background-color: hotpink;
+} */
+/* #nanako{
+    color: yellow;
+}
+.manami{
+    color: purple;
+}
+h1{
+    color: red;
+}
+h1{
+    color: blue ;
+} */
+
+
+/* Descendant selector  using a space */
+
+/* .nav ul li{
+    background-color: tomato;
+}  */
+
+/* Select all at once using,(comma)=and  */
+
+.header,.section-1,footer {
+    color: red;
+}

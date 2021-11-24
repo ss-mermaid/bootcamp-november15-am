@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- Form Element
+    form = parent element 
+
+    Elements:
+    input
+    label
+
+    Attributes:
+        action
+        method
+
+    for grouping content:
+    fieldset
+    legend
+
+
+-->
+   <form action="https://kredo.jp" method="get">
+       <fieldset>
+           <legend>Required Information</legend>
+       <label for="firstname">First Name:</label>
+       <input type= "text" name="firstname" id="firstname" 
+       placeholder="John" required minlength="5" maxlength="15">
+
+       <label for="lastname">Last Name:</label>
+       <input type="text" name="lastname" id="lastname" placeholder="Type your last here.">
+
+       <label for="">Email:</label>
+       <input type="email" name="email" id="email">
+
+       <label for="pword">Password:</label>
+       <input type="password" name="password" id="pword">    
+       </fieldset>
+       <fieldset>
+           <legend>Optional Information</legend>
+       <label for="">Age:</label>
+       <input type="number" name="age" id="age"required  min="18" max="60">
+
+       <label for="">Birthday</label>
+       <input type="date" name="birthday" id="bday" >
+
+       <div>
+           <p>Choose your gender:</p>
+           <input type="radio" name="gender" value="female" id="female">
+           <label for="female">Female</label>
+
+           <input type="radio" name="gender" value="male" id="male">
+           <label for="male">Male</label>
+
+           <input type="radio" name="gender" value="lgbt" id="lgbt">
+           <label for="lgbt">LGBT</label>
+       </div>
+
+       <div>
+           <p>Please choose your favorite food/s:</p>
+           <input type="checkbox" name="food" value="ramen" id="ramen">
+           <label for="ramen">Ramen</label>
+
+           <input type="checkbox" name="food" value="sushi" id="sushi">
+           <label for="sushi">Sushi</label>
+
+           <input type="checkbox" name="food" value="curry" id="curry">
+           <label for="curry">Curry</label>
+       </div>
+
+       <label for="">What is your favoritedevice?</label>
+       <select name="device" id="device" multiple>
+           <option value="macbook">MacBook</option>
+           <option value="ipad">Ipad</option>
+           <option value="smartphone">Smartphone</option>
+       </select>
+       <br>
+       <label for="photo">Upload Photo</label>
+       <input type="file" name="photo" id="photo" accept="video/*">
+       <br>
+       <label for="comment">Comment:</label>
+       <textarea name="name" id="comment" cols="30" rows="10" 
+       placeholder="Type Your Comment Here."></textarea>
+       <!--Buttons  -->
+       <input type="submit" name="submit" value="ok">
+
+       <button type="submit" name="submit" value="send">Send</button>
+       
+       <input type="image" name="submit" src="assets/images/junk.jpg" width="50px" height="30px">    
+       </fieldset>
+       
+
+       
+
+
+   </form> 
+</body>
+</html>

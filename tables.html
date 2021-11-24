@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table Element</title>
+    <link rel="stylesheet" href="assets/styles/table.css">
+</head>
+<body>
+    <!-- Table element 
+            table = parent element
+            tr = table row(row)
+            th = table header (column header)
+            td = table data (column data)
+        
+            for grouoping
+
+
+            thread = table head
+            tbody = table body
+            tfoot = table footer
+
+            attributes:
+
+            colpan = span or merge column cells
+            rowspan = span or merge row cells 
+        -->
+        
+    <div class="table1">
+    <h2>Sample Table 1</h2>
+    <table>
+        <tr>
+            <th>Title 1</th>
+            <th>Title 2</th>
+            <th>Title 3</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <th></th>
+            <th>3</th>
+        </tr>
+        <tr>
+            <th>4</th>
+            <th>5</th>
+            <th></th>
+        </tr>
+        <tr>
+            <th>7</th>
+            <th></th>
+            <th>9</th>
+        </tr>
+
+    
+    </table>
+    </div>
+
+    <div class="table2">
+    <h2>Sample Table 2</h2>
+    <table>
+        <tr>
+            <td>Data1</td>
+            <td>Data2</td>
+            <td>Data 3</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+
+    </table>
+    </div>
+
+    <h2>Sample Table 3</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Email</th>
+            <th>Address</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>23</td>
+            <td>johndoe@gmail.com</td>
+            <td>California</td>
+        </tr>
+        <tr>
+            <td>Jane Cane</td>
+            <td>35</td>
+            <td>jane.cane@yahoo.com</td>
+            <td>Switzerland</td>
+        </tr>
+        <tr>
+            <td>Nanako Miyakawa</td>
+            <td>20</td>
+            <td>nana@gmail.com</td>
+            <td>Japan</td>
+        </tr>
+    </table>
+    <h2>Sample Table 4</h2>
+    <table border="1" width="300px">
+        <thead style="background-color: gray;">
+            <tr>
+                <th>Sale 1</th>
+                <th>Sale 2</th>
+                <th>Sale 3</th>
+            </tr>
+            <tr>
+                <th>Week 1</th>
+                <th>Week 2</th>
+                <th>Week 3</th>
+            </tr>
+        </thead>
+        <tbody style="background-color: aqua;">
+            <tr>
+                <td>Data 1</td>
+                <td>Data 2</td>
+                <td>Data 3</td>
+            </tr>
+            <tr>
+                <td>Data 4</td>
+                <td>Data 5</td>
+                <td>Data 6</td>
+            </tr>
+        </tbody>
+        <tfoot style="background-color: yellow;">
+            <tr>
+                <th>total 1</th>
+                <th>total 2</th>
+                <th>total 3</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h2>Sample Table 5</h2>
+    <table border="1" width="300px">
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Contact Numbers</th>
+            <!-- <th></th> -->
+        </tr>
+        <tr>
+            <td>Bill</td>
+            <td>097556754</td>
+            <td>677343454</td>
+
+        </tr>
+
+    <tr>
+        <td>steve</td>
+        <td>432554545</td>
+        <td>465567343</td>
+    </tr>
+    
+   
+    </table>
+
+    <h2>Sample Table 6</h2>
+    <table border="1" width="600px">
+        <tr>
+            <th>Name</th>
+            <td>Bill</td>
+            <td>Steve</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Contact Numbers</th>
+            <td>34234344</td>
+            <td>34576576</td>
+        </tr>
+        <tr>
+            <!-- <th></th> -->
+            <td>56767676</td>
+            <td>45334544</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
